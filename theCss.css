@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-color: rgb(230, 181, 90);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background-color: black;
+  color: antiquewhite;
+  padding: 20px;
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+}
+
+#etchaSketch {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+div .easNode:hover {
+  background-color: black;
+}
+
+#options {
+  height: 80px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#reset {
+  margin: 20px;
+  padding: 10px;
+}
+
+#pixSize {
+  margin: 20px;
+  padding: 10px;
+}
+
+#resize {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.slider {
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+footer {
+  background-color: rgb(201, 153, 64);
+  color: antiquewhite;
+  padding: 10px;
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+}
+
+a {
+  color: antiquewhite;
+}
